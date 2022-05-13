@@ -7,7 +7,7 @@ window.addEventListener('DOMContentLoaded', reset);
 
 gridButton.addEventListener('click', gridSize);
 
-
+resetButton.addEventListener('click', reset);
 
 function removeGrid() {
     let child = container.lastChild;
@@ -56,7 +56,7 @@ function gridSize() {
     }
 }
 
-resetButton.addEventListener('click', reset);
+
 
 
 function hover() {
